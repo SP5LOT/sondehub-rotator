@@ -1,0 +1,4 @@
+# settings may contain your station data: never commit them
+*.ini
+*.exe
+*.zip

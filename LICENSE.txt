@@ -1,0 +1,26 @@
+SP5LOT sondehub rotator
+Copyright (c) 2026 SP5LOT. All rights reserved.
+
+FREEWARE LICENCE (English)
+
+1. You may download, install and use this program free of charge.
+2. You may share the original, unmodified ZIP file from the GitHub release page,
+   free of charge, with this licence included.
+3. You may not modify, decompile or sell the program, and you may not distribute
+   modified copies of it.
+4. The program is provided "as is", without warranty of any kind. You use it at your
+   own risk. The author is not liable for any damage, including damage to antennas,
+   rotators or other equipment.
+5. Components by other authors are covered by their own licences, see THIRD_PARTY.txt.
+
+LICENCJA FREEWARE (Polski)
+
+1. Program można pobrać, zainstalować i używać bezpłatnie.
+2. Można bezpłatnie przekazywać dalej oryginalny, niezmieniony plik ZIP ze strony wydania
+   na GitHubie, razem z tą licencją.
+3. Nie wolno zmieniać, dekompilować ani sprzedawać programu ani rozpowszechniać jego
+   zmienionych kopii.
+4. Program jest dostarczany „tak jak jest”, bez żadnej gwarancji. Używasz go na własne
+   ryzyko. Autor nie odpowiada za szkody, także za uszkodzenie anten, rotorów
+   i innego sprzętu.
+5. Składniki innych autorów są objęte ich własnymi licencjami, zobacz THIRD_PARTY.txt.
