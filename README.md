@@ -25,9 +25,10 @@ Get the ZIP from **[Releases](../../releases/latest)**. It is one `.exe`, no ins
 
 ### PstRotator setup (once)
 
-1. In PstRotator open the **Tracker** menu and tick **Gpredict**.
-   This opens TCP port **4533**. Gpredict itself is not needed, it is only the name of the option.
-2. Only if PstRotator runs on **another PC**: allow incoming TCP port 4533 in the Windows firewall on that PC.
+1. In PstRotator open the **Setup** menu and tick **Rotctld Hamlib Server**.
+2. In the **Communication** menu open **Rotctld Server Setup** and enter the port **4533**.
+   sondehub rotator uses port 4533 by default. If you enter another port there, type the same port in sondehub rotator.
+3. Only if PstRotator runs on **another PC**: allow incoming TCP port 4533 in the Windows firewall on that PC.
 
 ### Quick start
 
@@ -37,12 +38,11 @@ Get the ZIP from **[Releases](../../releases/latest)**. It is one `.exe`, no ins
    Enter the **antenna height above sea level** in metres (ground height + mast).
 3. **PstRotator**: host `127.0.0.1` if PstRotator runs on the same PC (otherwise the IP address of that PC), port `4533`,
    then click **Connect**. The lamp turns green: *Connected*.
-   If it does not connect: start PstRotator first and check that *Tracker > Gpredict* is ticked.
+   If it does not connect: start PstRotator first and check that *Setup > Rotctld Hamlib Server* is ticked and the port is the same.
 4. **Choose a target**: click a balloon in the list, or type an **APRS callsign** with its SSID (for example `AB1CDE-11`)
    in the *APRS* field.
 5. Press **START**. The rotator follows the target. When the target is below the horizon, the antenna follows the azimuth
    and the elevation stays at 0. **STOP** stops sending commands.
-   If the rotator does not move although commands are sent, switch PstRotator to *Tracking* mode.
 
 ### Good to know
 
@@ -82,9 +82,10 @@ Plik ZIP jest w **[Releases](../../releases/latest)**. W środku jest jeden `.ex
 
 ### Ustawienia PstRotatora (jednorazowo)
 
-1. W PstRotatorze otwórz menu **Tracker** i zaznacz **Gpredict**.
-   To otwiera port TCP **4533**. Sam program Gpredict nie jest potrzebny, to tylko nazwa opcji.
-2. Tylko gdy PstRotator działa na **innym komputerze**: wpuść przychodzący port TCP 4533 w zaporze Windows na tamtym komputerze.
+1. W PstRotatorze otwórz menu **Setup** i zaznacz **Rotctld Hamlib Server**.
+2. W menu **Communication** otwórz **Rotctld Server Setup** i wpisz port **4533**.
+   sondehub rotator domyślnie używa portu 4533. Jeśli wpiszesz tam inny port, wpisz ten sam w sondehub rotator.
+3. Tylko gdy PstRotator działa na **innym komputerze**: wpuść przychodzący port TCP 4533 w zaporze Windows na tamtym komputerze.
 
 ### Szybki start
 
@@ -94,11 +95,10 @@ Plik ZIP jest w **[Releases](../../releases/latest)**. W środku jest jeden `.ex
    Wpisz **wysokość anteny nad poziomem morza** w metrach (wysokość terenu + maszt).
 3. **PstRotator**: host `127.0.0.1`, gdy PstRotator działa na tym samym komputerze (inaczej adres IP tamtego komputera), port `4533`,
    potem kliknij **Connect**. Lampka zmieni się na zieloną: *Connected*.
-   Jeśli nie łączy: najpierw uruchom PstRotator i sprawdź, czy *Tracker > Gpredict* jest zaznaczone.
+   Jeśli nie łączy: najpierw uruchom PstRotator i sprawdź, czy *Setup > Rotctld Hamlib Server* jest zaznaczone i port jest ten sam.
 4. **Wybierz cel**: kliknij balon na liście albo wpisz w polu *APRS* **znak APRS** z SSID (np. `AB1CDE-11`).
 5. Naciśnij **START**. Rotor śledzi cel. Gdy cel jest pod horyzontem, antena idzie za azymutem, a elewacja zostaje na 0.
    **STOP** przestaje wysyłać komendy.
-   Jeśli komendy idą, a rotor się nie rusza, przełącz PstRotator w tryb *Tracking*.
 
 ### Dobrze wiedzieć
 
